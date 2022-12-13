@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: cursive;
+}
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+a, p, h1, h2, h3, h4, h5, h6{
+  color: #63382f
+}
+header{
+  background-image: url(../images/navbar.jpg);
+  background-position: centre;
+  background-size: cover;
+  position: relative;
+}
+head nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+}
+header nav a{
+  padding: 10px;
+  color: white;
+  text-decoration: underline;
+}
+header nav a:hover{
+  color: #ff00c1;
+}
+section{
+  padding: 20px;
+}
+main {
+  float: left;
+  width: 70%;
+}
+main p{
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+.two{
+border: 20px solid purple;}
